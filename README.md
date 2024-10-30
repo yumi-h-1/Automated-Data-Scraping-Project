@@ -1,7 +1,7 @@
 # Automated Data Scraping Project
 
 ## Objectives
-- Build a consistent database of regulatory and HTA guidance on medicines for analysis and statistics.
+- Build a consistent database of regulatory and Health Technology Assessment (HTA) guidance on medicines for analysis and statistics.
 - Focus on stepwise data collection and automation from European Medicines Agency (EMA) and National Institute for Health and Care Excellence (NICE) sources.
 
 ## AI Utilization
