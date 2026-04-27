@@ -123,7 +123,7 @@ Each row represents one medicine from the latest CHMP Meeting Highlights. 26 fea
 │   └── get_chmp_opinion_date.py
 ├── data/
 │   ├── medicines_output_medicines_en.xlsx   # EMA medicine list
-│   └── therapy_area.xlsx                   # Therapy area lookup table
+│   └── therapy_area.xlsx                    # Therapy area lookup table
 └── results/
     └── final_EMA_dataset.xlsx              # Output dataset
 ```
