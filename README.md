@@ -137,6 +137,6 @@ Each row represents one medicine from the latest CHMP Meeting Highlights. 26 fea
 
 ## AI Utilization
 
-- **Model**: GPT-4o mini — chosen for efficiency and cost-effectiveness over Llama 3.1.
+- **Model**: GPT-4o mini — chosen for speed efficiency over Llama 3.1.
 - **Tasks**: Extracts structured data from unstructured sources — HTML (bold/strikethrough text), PDFs (procedure steps), and NICE web pages (indication similarity scoring).
 - **Output**: Structured Excel/CSV file with 26 features per medicine for downstream analysis.
