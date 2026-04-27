@@ -1,4 +1,6 @@
-# Function to query the model to find new indications from HTML
+from config import client, MODEL
+
+
 def query_model_for_new_indication_html(html_content):
     query = f"""Use the HTML code provided below to answer the following question:
     Extract all newly added indications for the medicine. The indications are related to the patient group as well.

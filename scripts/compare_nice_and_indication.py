@@ -1,4 +1,6 @@
-# Loop to compare each NICE text with the corresponding indications in a dataframe
+from query_model_for_NICE_similarity import query_model_for_NICE_similarity
+
+
 def compare_nice_and_indication(nice_text_dict, indication_df):
     similarity_results = []  # List to store the results
 

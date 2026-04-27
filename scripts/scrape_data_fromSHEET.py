@@ -1,7 +1,5 @@
-# Function to scrape the data from the medicine list
 def scrape_data_fromSHEET(scraped_medicine_name, dataframe, columns_to_return):
-    # Search for the name in the dataframe
-    matching_row = df[df['Name of medicine'] == scraped_medicine_name]
+    matching_row = dataframe[dataframe['Name of medicine'] == scraped_medicine_name]
 
     if not matching_row.empty:
         # Extract the desired columns from the matching row

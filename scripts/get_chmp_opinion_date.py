@@ -1,4 +1,6 @@
-# Function to change the format of date for CHMP opinion date
+from datetime import datetime, timedelta
+
+
 def get_chmp_opinion_date(date_str, date_format='%d %B %Y'):
     try:
         # Convert date string to datetime object

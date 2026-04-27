@@ -1,4 +1,6 @@
-# Function to query the model to find removed indications from HTML
+from config import client, MODEL
+
+
 def query_model_for_removed_indication_html(html_content):
     query = f"""Use the HTML code provided below to answer the following question:
     Extract all removed indications for the medicine. The indications are related to the patient group as well.

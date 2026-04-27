@@ -1,4 +1,6 @@
-# Function to query the model for text similarity between NICE text and indication from a dataframe
+from config import client, MODEL
+
+
 def query_model_for_NICE_similarity(nice_text, indication):
     query = f"""Compare the following two pieces of text and determine if they mention the same therapeutic indication for the medicine:
 

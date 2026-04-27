@@ -1,5 +1,5 @@
-# Function to query the model for full indications from HTML
-from openai import OpenAI
+from config import client, MODEL
+
 
 def query_model_for_indication(html_content):
     query = f"""Use the HTML code provided below to answer the following question:

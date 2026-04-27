@@ -1,4 +1,6 @@
-# Function to query the model to find new indications from PDFs
+from config import client, MODEL
+
+
 def query_model_for_new_indication_pdf(pdf_text):
     query = f"""Use the document stored in the variable 'pdf_text' to answer the following question:
     Extract only the most recent added indication for the medicine. The date criteria is 'Commission \nDecision \nIssued2 / \namended'.
